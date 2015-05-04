@@ -1,0 +1,17 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='bower_components/bootstrap/dist/css/bootstrap.min.css')
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    include partials/navigation
+  
+    .content.container
+      block content
+    
+    //- vendor scripts
+    script(src='bower_components/jquery/dist/jquery.min.js')
+    
+    //- application scripts
+    script(src='/javascripts/app.js')

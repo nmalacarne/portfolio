@@ -1,0 +1,18 @@
+{
+  "name": "nmalacarne.me",
+  "version": "0.0.0",
+  "authors": [
+    "Nicholas Malacarne <nicholas.malacarne@gmail.com>"
+  ],
+  "description": "A portfolio website.",
+  "license": "MIT",
+  "homepage": "nmalacarne.me",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {}
+}
