@@ -1,3 +1,3 @@
 $(document).ready(function() {
-  $.material.init();
+  // TODO: add scripts
 });
