@@ -7,7 +7,6 @@ var bodyParser    = require('body-parser');
 var stylus        = require('stylus');
 
 var routes  = require('./routes/index');
-var users   = require('./routes/users');
 
 var app = express();
 
@@ -34,7 +33,6 @@ app.locals.basedir = app.get('views');
 
 // routes
 app.use('/', routes);
-app.use('/users', users);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
