@@ -2,16 +2,21 @@ doctype html
 html
   head
     title= title
-    link(rel='stylesheet', href='bower_components/bootstrap/dist/css/bootstrap.min.css')
+    
+    //- vendor styles
+    link(rel='stylesheet', href='bower_components/materialize/dist/css/materialize.min.css')
+    
+    //- application styles
     link(rel='stylesheet', href='/stylesheets/style.css')
   body
     include partials/navigation
   
-    .content.container
+    .container
       block content
     
     //- vendor scripts
     script(src='bower_components/jquery/dist/jquery.min.js')
+    script(src='bower_components/materialize/dist/js/materialize.min.js')
     
     //- application scripts
     script(src='/javascripts/app.js')

@@ -1,3 +1,3 @@
 $(document).ready(function() {
-  // TODO: add scripts
+  $('.button-collapse').sideNav();
 });

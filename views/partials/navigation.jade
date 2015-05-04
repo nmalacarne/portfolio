@@ -1,5 +1,16 @@
-.navbar.navbar-fixed-top
-  .container-fluid
-    button.btn.btn-default.navbar-btn
-      span.glyphicon.glyphicon-collapse-down
+.navbar-fixed
+  nav.grey.lighten-5
+    .nav-wrapper
+      //- top nav
+      ul#nav-mobile.left
+        li
+          a(href='#', data-activates='main-menu').button-collapse.show-on-large
+            i.mdi-navigation-menu.grey-text.text-darken-4
+            
+      //- side nav
+      ul#main-menu.side-nav
+        li
+          a(href='#!')
+            | Home
+        
     
