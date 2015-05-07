@@ -11,6 +11,8 @@
     "debug": "~2.1.1",
     "express": "~4.12.2",
     "jade": "~1.9.2",
+    "jake": "^8.0.12",
+    "jake-web-utils": "^0.3.0",
     "mongoose": "^4.0.2",
     "morgan": "~1.5.1",
     "serve-favicon": "~2.2.0",
