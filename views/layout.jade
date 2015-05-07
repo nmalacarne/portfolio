@@ -3,20 +3,16 @@ html
   head
     title= title
     
-    //- vendor styles
-    link(rel='stylesheet', href='bower_components/materialize/dist/css/materialize.min.css')
+    //- scripts
+    script(src='bower_components/webcomponentsjs/webcomponents.min.js')
+    block scripts
+    
+    //- polymer imports
+    link(rel='import', href='bower_components/polymer/polymer.html')
+    block imports
     
     //- application styles
     link(rel='stylesheet', href='/stylesheets/style.css')
-  body
-    include partials/navigation
-  
-    .container
-      block content
     
-    //- vendor scripts
-    script(src='bower_components/jquery/dist/jquery.min.js')
-    script(src='bower_components/materialize/dist/js/materialize.min.js')
+  body(unresolved)
     
-    //- application scripts
-    script(src='/javascripts/app.js')
